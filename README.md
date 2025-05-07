@@ -1,4 +1,4 @@
-# Lumos
+# Lumos G1
 
 ![Warning](https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red)
 
