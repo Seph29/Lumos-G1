@@ -45,7 +45,7 @@ Other firmware versions are not officially supported.
 
 ## Installation
 
-1. Download the latest release from the **Releases** tab
+1. Download the latest release from the **Releases** tab (soon)
 2. Install the APK on the G1 (via ADB, etc.)
 3. Launch the app and follow the on-screen instructions
 
