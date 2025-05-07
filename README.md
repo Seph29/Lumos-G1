@@ -55,7 +55,7 @@ The matching `.xdelta` patch is already bundled in the app.
 
 ## External Binaries
 
-The app uses `xdelta3` (Apache 2.0 license) and `mtk-su`.  
+The app uses `xdelta3` (Apache 2.0 license) and `mtk-su` by [Diplomatic](https://forum.xda-developers.com/member.php?u=8132642).  
 These tools are downloaded automatically at runtime.
 
 ---
