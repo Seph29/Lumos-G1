@@ -49,8 +49,6 @@ Other firmware versions are not officially supported.
 2. Install the APK on the G1 (via ADB, etc.)
 3. Launch the app and follow the on-screen instructions
 
-The matching `.xdelta` patch is already bundled in the app.
-
 ---
 
 ## External Binaries
