@@ -25,8 +25,7 @@
 
 ## Features
 
-- Automatic detection of device language and firmware version (specific to the G1)
-- Automatic download of required tools
+- Automatic detection of device language and firmware version
 - Two-stage patching: boot partition first, then system (requires reboot)
 - Backs up the original file before replacing it (no restore yet)
 
