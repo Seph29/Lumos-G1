@@ -4,7 +4,8 @@
 
 > ⚠️ **WARNING: MAY BRICK YOUR DEVICE**  
 > This app modifies critical system partitions on the INNIOASIS G1 (boot and system).  
-> Misuse can permanently **brick** your device.  
+> Misuse can permanently **brick** your device.
+> The application is still in the beta test phase
 >
 > ❗ **If you don't understand what this app does or why you need it, do not use it.**
 
