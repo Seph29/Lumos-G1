@@ -49,6 +49,8 @@ Other firmware versions are not officially supported.
 2. Install the APK on the G1 (via ADB, etc.)
 3. Launch the app and follow the on-screen instructions
 
+⚠️ If your G1 is still stuck on the INNIOASIS logo, it is recommended to download the latest firmware from the official INNIOASIS website and flash it using SP Flash Tool.
+If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
 ---
 
 ## External Binaries
