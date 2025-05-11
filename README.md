@@ -51,7 +51,7 @@ Other firmware versions are not officially supported.
 
 ## Installation
 
-1. Download the latest release from the **Releases** tab (soon)
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/latest)
 2. Install the APK on the G1 (via ADB, etc.)
 3. Launch the app and follow the on-screen instructions
 
