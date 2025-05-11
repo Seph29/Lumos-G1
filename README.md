@@ -52,6 +52,7 @@ Other firmware versions are not officially supported but probably works.
 | DE       | 2.07.241011      |
 | EN       | 2.07.241008      |
 | DE       | 3.02.241011      |
+| EN       | 2.06.240418      |
 
 ---
 
