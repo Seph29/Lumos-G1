@@ -1,4 +1,5 @@
 # Lumos G1
+![Logo](https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png)
 
 ![Warning](https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red)
 
@@ -23,6 +24,11 @@
 
 ---
 
+## 📷 Screenshot
+
+[![screen1](https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png)
+
+---
 ## Features
 
 - Automatic detection of device language and firmware version
