@@ -50,7 +50,6 @@ Other firmware versions are not officially supported but probably works.
 | Language | Expected Version |
 |----------|------------------|
 | DE       | 2.07.241011      |
-| EN       | 2.14.250109      |
 | EN       | 2.07.241008      |
 | DE       | 3.02.241011      |
 
