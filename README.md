@@ -59,8 +59,9 @@ Other firmware versions are not officially supported but probably works.
 ## Installation
 
 1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.5/lumos-v1.0.5.apk)
-2. Install the APK on the G1 (via ADB, etc.)
+2. Install the APK on the G1 (via Download, USB, ADB, etc.)
 3. Start the application and click the INJECT button. After the first restart, start the application a second time and press INJECT again.
+4. Enjoy !
 
 > ⚠️ If your G1 is still stuck on the INNIOASIS logo, it is recommended to download the latest firmware from the official INNIOASIS website and flash it using SP Flash Tool.
 > If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
