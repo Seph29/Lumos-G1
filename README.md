@@ -26,7 +26,7 @@
 
 ## 📷 Screenshot
 
-[![screen1](https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png)
+<img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png" alt="Screen" width="240" height="400">
 
 ---
 ## Features
