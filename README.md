@@ -70,22 +70,22 @@ Other firmware versions are not officially supported but probably works.
 
 ## ❓ FAQ
 
-### Is my G1 rooted after installing Lumos?  
+**Is my G1 rooted after installing Lumos?**  
 No. The app uses temporary root access only during the patch process. Your device remains unrooted after reboot.
 
-### Can I remove Lumos?  
+**Can I remove Lumos?**  
 Yes. You need to reflash the original `boot.img` and `system.img` using SP Flash Tool.
 
-### Is it possible to unlock the bootloader?  
+**Is it possible to unlock the bootloader?**  
 No. As far as I know, the G1 bootloader cannot be unlocked.
 
-### Does Lumos work on all firmware versions?  
+**Does Lumos work on all firmware versions?**  
 No. Only specific versions are officially supported. Others may work, but without guarantee.
 
-### Does Lumos install a custom recovery or modify the bootloader?  
+**Does Lumos install a custom recovery or modify the bootloader?**  
 No. Lumos does not install a recovery or change the bootloader. However, it replaces the original `boot.img` with a patched version.
 
-### Can I update the firmware after using Lumos?  
+**Can I update the firmware after using Lumos?**  
 Not recommended. Updating the firmware will overwrite Lumos patches, and you may need to reapply or adapt it to the new version.
 
 ---
