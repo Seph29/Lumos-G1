@@ -1,18 +1,30 @@
-# Lumos G1
-![Logo](https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png)
+<a name="readme-top"></a>
 
-![Warning](https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red)
+<!-- Project Shields -->
+<p align="center">
+  <a href="https://github.com/Seph29/Lumos-G1/graphs/contributors"><img src="https://img.shields.io/github/contributors/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/Seph29/Lumos-G1/network/members"><img src="https://img.shields.io/github/forks/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/Seph29/Lumos-G1/stargazers"><img src="https://img.shields.io/github/stars/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/Seph29/Lumos-G1/issues"><img src="https://img.shields.io/github/issues/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Issues"></a>
+</p>
+
+<div align="center">
+  <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png" alt="Lumos G1 Logo"/>
+  
+  <p><b>Unlock app installation on the INNIOASIS G1 without bootloader unlock</b></p>
+
+  <img src="https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red" alt="Warning">
+</div>
 
 > ⚠️ **WARNING: MAY BRICK YOUR DEVICE**  
 > This app modifies critical system partitions on the INNIOASIS G1 (boot and system).  
-> Misuse can permanently **brick** your device.
-> The application is still in the beta test phase
->
+> Misuse can permanently **brick** your device.  
+> The application is still in the beta test phase.  
 > ❗ **If you don't understand what this app does or why you need it, do not use it.**
 
 ---
 
-## Overview
+## 📖 Overview
 
 **Lumos** is an Android app for the INNIOASIS G1. It unlocks the ability to install applications by patching the system automatically, without unlocking the bootloader.
 
@@ -20,24 +32,29 @@
 
 ## 🎥 Demo
 
-[![Watch the video](https://img.youtube.com/vi/F3ZEJCmKp9I/0.jpg)](https://www.youtube.com/watch?v=F3ZEJCmKp9I)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=F3ZEJCmKp9I"><img src="https://img.youtube.com/vi/F3ZEJCmKp9I/0.jpg" alt="Lumos G1 Logo"/></div>
 
 ---
 
-## 📷 Screenshot
+## 📷 Screenshots
 
-<img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png" alt="Screen" width="240" height="400"> <img src="https://github.com/Seph29/Lumos-G1/blob/ee68a851ab910dc7ba23ac059d6ade6ee1f653b1/docs/lumos2.png" alt="Screen" width="240" height="400">
+<p align="center">
+  <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png" width="240"/>
+  <img src="https://github.com/Seph29/Lumos-G1/blob/ee68a851ab910dc7ba23ac059d6ade6ee1f653b1/docs/lumos2.png" width="240"/>
+</p>
 
 ---
-## Features
 
-- Automatic detection of device language and firmware version
-- Two-stage patching: boot partition first, then system (requires reboot)
+## ⭐️ Features
+
+- Automatic detection of device language and firmware version  
+- Two-stage patching: boot partition first, then system (requires reboot)  
 - Backs up the original file before replacing it (no restore yet)
 
 ---
 
-## Supported Versions
+## 📦 Supported Versions
 
 | Language | Expected Version |
 |----------|------------------|
@@ -45,7 +62,7 @@
 | EN       | 2.14.250109      |
 | DE       | 2.08.250113      |
 
-Other firmware versions are not officially supported but probably works.
+Other firmware versions are not officially supported but probably work:
 
 | Language | Expected Version |
 |----------|------------------|
@@ -56,41 +73,42 @@ Other firmware versions are not officially supported but probably works.
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.5/lumos-v1.0.5.apk)
-2. Install the APK on the G1 (via Download, USB, ADB, etc.)
-3. Start the application and click the INJECT button. After the first restart, start the application a second time and press INJECT again.
-4. Enjoy !
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.5/lumos-v1.0.5.apk)  
+2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
+3. Start the application and click the INJECT button.  
+4. After the first restart, start the application a second time and press INJECT again.  
+5. Enjoy!
 
-> ⚠️ If your G1 is still stuck on the INNIOASIS logo, it is recommended to download the latest firmware from the official INNIOASIS website and flash it using SP Flash Tool.
+> ⚠️ If your G1 is still stuck on the INNIOASIS logo, it is recommended to download the latest firmware from the official INNIOASIS website and flash it using SP Flash Tool.  
 > If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
 
 ---
 
 ## ❓ FAQ
 
-**Is my G1 rooted after installing Lumos?**  
+**Is my G1 rooted after installing Lumos ?**  
 No. The app uses temporary root access only during the patch process. Your device remains unrooted after reboot.
 
-**Can I remove Lumos?**  
+**Can I remove Lumos ?**  
 Yes. You need to reflash the original `boot.img` and `system.img` using SP Flash Tool.
 
-**Is it possible to unlock the bootloader?**  
+**Is it possible to unlock the bootloader ?**  
 No. As far as I know, the G1 bootloader cannot be unlocked.
 
-**Does Lumos work on all firmware versions?**  
+**Does Lumos work on all firmware versions ?**  
 No. Only specific versions are officially supported. Others may work, but without guarantee.
 
-**Does Lumos install a custom recovery or modify the bootloader?**  
+**Does Lumos install a custom recovery or modify the bootloader ?**  
 No. Lumos does not install a recovery or change the bootloader. However, it replaces the original `boot.img` with a patched version.
 
-**Can I update the firmware after using Lumos?**  
+**Can I update the firmware after using Lumos ?**  
 Not recommended. Updating the firmware will overwrite Lumos patches, and you may need to reapply or adapt it to the new version.
 
 ---
 
-## External Binaries
+## 🧰 External Binaries
 
 The app uses `xdelta3` (Apache 2.0 license) and `mtk-su` by [Diplomatic](https://forum.xda-developers.com/member.php?u=8132642).  
 These tools are downloaded automatically at runtime.
@@ -98,3 +116,5 @@ These tools are downloaded automatically at runtime.
 ---
 
 ⚠️ Use at your own risk. No warranty is provided.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
