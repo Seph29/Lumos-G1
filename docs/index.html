@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #000;
+            overflow: hidden;
+            position: relative;
+        }
 
+        #canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .logo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0 0 15px rgba(255, 165, 0, 0.5));
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const mouse = { x: null, y: null, radius: 100 };
+
+        // Configuration
+        const particleSettings = {
+            count: 50,
+            color: ['#FFA500', '#808080'],
+            maxSpeed: 0.5,
+            minSize: 2,
+            maxSize: 5
+        };
+
+        // Redimensionnement canvas
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        // Classe Particule
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * (particleSettings.maxSize - particleSettings.minSize) + particleSettings.minSize;
+                this.speedX = (Math.random() - 0.5) * particleSettings.maxSpeed;
+                this.speedY = (Math.random() - 0.5) * particleSettings.maxSpeed;
+                this.color = particleSettings.color[Math.floor(Math.random() * particleSettings.color.length)];
+            }
+
+            update() {
+                // Interaction avec la souris
+                const dx = mouse.x - this.x;
+                const dy = mouse.y - this.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                
+                if (distance < mouse.radius) {
+                    const force = (mouse.radius - distance) / mouse.radius;
+                    this.x -= dx * force * 0.05;
+                    this.y -= dy * force * 0.05;
+                }
+
+                // Mouvement naturel
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                // Rebond sur les bords
+                if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
+                if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        // Initialisation
+        function init() {
+            particles = [];
+            for (let i = 0; i < particleSettings.count; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        // Animation
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Dessiner les connections
+            particles.forEach(particle1 => {
+                particles.forEach(particle2 => {
+                    const dx = particle1.x - particle2.x;
+                    const dy = particle1.y - particle2.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 100) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${1 - distance/100})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.moveTo(particle1.x, particle1.y);
+                        ctx.lineTo(particle2.x, particle2.y);
+                        ctx.stroke();
+                    }
+                });
+
+                // Connection avec la souris
+                if (mouse.x && mouse.y) {
+                    const dx = particle1.x - mouse.x;
+                    const dy = particle1.y - mouse.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 150) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(255, 165, 0, ${1 - distance/150})`;
+                        ctx.lineWidth = 0.8;
+                        ctx.moveTo(particle1.x, particle1.y);
+                        ctx.lineTo(mouse.x, mouse.y);
+                        ctx.stroke();
+                    }
+                }
+
+                particle1.update();
+                particle1.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        // Événements
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            init();
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            mouse.x = e.x;
+            mouse.y = e.y;
+        });
+
+        // Démarrage
+        resizeCanvas();
+        init();
+        animate();
+    </script>
+</body>
+</html>
