@@ -1,20 +1,13 @@
 <a name="readme-top"></a>
-
-<!-- Project Shields -->
-<p align="center">
-  <a href="https://github.com/Seph29/Lumos-G1/graphs/contributors"><img src="https://img.shields.io/github/contributors/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Contributors"></a>
-  <a href="https://github.com/Seph29/Lumos-G1/network/members"><img src="https://img.shields.io/github/forks/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Forks"></a>
-  <a href="https://github.com/Seph29/Lumos-G1/stargazers"><img src="https://img.shields.io/github/stars/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Stargazers"></a>
-  <a href="https://github.com/Seph29/Lumos-G1/issues"><img src="https://img.shields.io/github/issues/Seph29/Lumos-G1.svg?style=for-the-badge" alt="Issues"></a>
+<p align=center>
+  <img src="https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red" alt="Warning">
 </p>
-
 <div align="center">
   <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png" alt="Lumos G1 Logo"/>
 
   <br />
   <p><b>Unlock app installation on the INNIOASIS G1 without bootloader unlock</b></p>
   <br />
-  <img src="https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red" alt="Warning">
 </div>
 
 > ⚠️ **WARNING: MAY BRICK YOUR DEVICE**  
