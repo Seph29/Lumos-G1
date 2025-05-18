@@ -4,9 +4,12 @@
 </p>
 <div align="center">
   <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png" alt="Lumos G1 Logo"/>
-
   <br />
-  <p><b>Unlock app installation on the INNIOASIS G1 without bootloader unlock</b></p>
+  <p><b>Unlock app installation on the INNIOASIS G1 without bootloader unlock</b></p>  <br />
+  <p align="center"><img src="https://img.shields.io/github/v/release/Seph29/Lumos-G1?label=Release&style=for-the-badge" alt="Release"/>
+        <img src="https://img.shields.io/github/downloads/Seph29/Lumos-G1/total?label=Downloads&style=for-the-badge" alt="Downloads"/>
+        <img src="https://img.shields.io/github/issues/Seph29/Lumos-G1?label=Issues&style=for-the-badge" alt="Issues"/>
+        <img src="https://img.shields.io/github/stars/Seph29/Lumos-G1?label=Stars&style=for-the-badge" alt="Stars"></p>
   <br />
 </div>
 
@@ -75,7 +78,7 @@ Other firmware versions are not officially supported but probably work:
 4. After the first restart, start the application a second time and press INJECT again.  
 5. Enjoy!
 
-> ⚠️ If your G1 is still stuck on the INNIOASIS logo, it is recommended to download the latest firmware from the official INNIOASIS website and flash it using SP Flash Tool.  
+> ⚠️ If your G1 is not running the required firmware version before using this app, or if it's stuck on the INNIOASIS logo after flashing, you must reflash the correct firmware using SP Flash Tool.
 > If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
 
 ---
