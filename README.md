@@ -103,6 +103,9 @@ No. Lumos does not install a recovery or change the bootloader. However, it repl
 **Can I update the firmware after using Lumos ?**  
 Not recommended. Updating the firmware will overwrite Lumos patches, and you may need to reapply or adapt it to the new version.
 
+**I've installed this app to my G1 but it doesn't look like yours.**
+It is normal, to have the same style you can install Nova launcher and google keyboard
+
 ---
 
 ## 🧰 External Binaries
