@@ -104,12 +104,11 @@ No. Lumos does not install a recovery or change the bootloader. However, it repl
 Not recommended. Updating the firmware will overwrite Lumos patches, and you may need to reapply or adapt it to the new version.
 
 **I've installed this app to my G1 but it doesn't look like yours.**  
-It is normal, to have the same style you can install Nova launcher, google keyboard and Cx Files Explorer
+It is normal, to have the same style you can install `Nova Launcher`, `Google Keyboard` and `Cx File Explorer`.
 
 ---
 
 ## 🧰 External Binaries
-
 The app uses `xdelta3` (Apache 2.0 license) and `mtk-su` by [Diplomatic](https://forum.xda-developers.com/member.php?u=8132642).  
 These tools are downloaded automatically at runtime.
 
