@@ -45,7 +45,8 @@
 
 ## ⭐️ Features
 
-- Automatic detection of device language and firmware version  
+- Works without unlocking the bootloader
+- Automatic detection of firmware version and language
 - Two-stage patching: boot partition first, then system (requires reboot)  
 - Backs up the original file before replacing it (no restore yet)
 
