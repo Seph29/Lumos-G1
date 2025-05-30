@@ -59,7 +59,7 @@
 | EN       | 2.14.250109      |
 | DE       | 2.08.250113      |
 
-Other firmware versions are not officially supported but probably work:
+**Alternative firmware versions** (not officially supported, but likely to work):
 
 | Language | Expected Version |
 |----------|------------------|
@@ -67,6 +67,8 @@ Other firmware versions are not officially supported but probably work:
 | EN       | 2.07.241008      |
 | DE       | 3.02.241011      |
 | EN       | 2.06.240418      |
+
+> ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
 ---
 
@@ -78,7 +80,7 @@ Other firmware versions are not officially supported but probably work:
 4. After the first restart, start the application a second time and press INJECT again.  
 5. Enjoy!
 
-> ⚠️ If your G1 is not running the required firmware version before using this app, or if it's stuck on the INNIOASIS logo after flashing, you must reflash the correct firmware using SP Flash Tool.
+> ⚠️ If your G1 is stuck on the INNIOASIS logo after flashing, you must reflash the correct firmware using SP Flash Tool.
 > If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
 
 ---
