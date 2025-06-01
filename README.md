@@ -37,18 +37,37 @@
 ## 📷 Screenshots
 
 <p align="center">
-  <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/lumos.png" width="240"/>
-  <img src="https://github.com/Seph29/Lumos-G1/blob/ee68a851ab910dc7ba23ac059d6ade6ee1f653b1/docs/lumos2.png" width="240"/>
+  <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/alertdialog-EN.png" width="200"/> &nbsp;
+  <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/screen-EN.png" width="200"/> &nbsp;
 </p>
+
+<details>
+  <summary>📂 Show more screenshots</summary>
+  <br/>
+
+  <p align="center"><b>🌐 Multilingual screens</b></p>
+  <p align="center">
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/screen2-DE.png" width="200"/> &nbsp;
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/screen2-FR.png" width="200"/> &nbsp;
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/screen2-EN.png" width="200"/>
+  </p>
+
+  <br/>
+  <p align="center"><b>🛠 Restore menu</b></p>
+  <p align="center">
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/patched-EN.png" width="200"/> &nbsp;
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/restore-EN.png" width="200"/>
+  </p>
+</details>
 
 ---
 
 ## ⭐️ Features
 
-- Works without unlocking the bootloader
-- Automatic detection of firmware version and language
+- Works without unlocking the bootloader  
+- Automatic detection of firmware version and language *(FR / EN / DE supported)*  
 - Two-stage patching: boot partition first, then system (requires reboot)  
-- Backs up the original file before replacing it (no restore yet)
+- **Partial restore available:** only the system is reverted (boot remains patched), allowing quick toggle to install an app  
 
 ---
 
@@ -75,7 +94,7 @@
 
 ## ⚙️ Installation
 
-1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.5/lumos-v1.0.5.apk)  
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.7/lumos-v1.0.7.apk)  
 2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
 3. Start the application and click the INJECT button.  
 4. After the first restart, start the application a second time and press INJECT again.  
@@ -118,5 +137,3 @@ These tools are downloaded automatically at runtime.
 ---
 
 ⚠️ Use at your own risk. No warranty is provided.
-
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
