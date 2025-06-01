@@ -110,7 +110,7 @@
 **Is my G1 rooted after installing Lumos ?**  
 No. The app uses temporary root access only during the patch process. Your device remains unrooted after reboot.
 
-**Can I remove Lumos ?**  
+**Can I completely remove Lumos ?**  
 Yes. You need to reflash the original `boot.img` and `system.img` using SP Flash Tool.
 
 **Is it possible to unlock the bootloader ?**  
