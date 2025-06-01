@@ -137,3 +137,5 @@ These tools are downloaded automatically at runtime.
 ---
 
 ⚠️ Use at your own risk. No warranty is provided.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
