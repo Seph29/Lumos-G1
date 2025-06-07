@@ -64,10 +64,15 @@
 
 ## ⭐️ Features
 
-- Works without unlocking the bootloader  
-- Automatic detection of firmware version and language *(FR / EN / DE supported)*  
-- Two-stage patching: boot partition first, then system (requires reboot)  
-- **Partial restore available:** only the system is reverted (boot remains patched), allowing quick toggle to install an app  
+- No bootloader unlock required  
+- Automatic firmware version and language detection *(FR / EN / DE supported)*  
+- Two-stage patching: boot partition first, then system (reboot required)  
+- Partial restore available: revert only the system (boot remains patched), allowing fast toggle for app installation  
+- Integrity check: all critical files are verified using SHA-256 hashes  
+- Automatic update notification when a new version is available  
+- Battery check: prevents patching or restore if device is not charging or below 20%  
+- Backup verification: restoration is only possible if a valid backup is present  
+- Multilingual interface (French, English, German)  
 
 ---
 
@@ -94,7 +99,7 @@
 
 ## ⚙️ Installation
 
-1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.7.1/lumos-v1.0.7.1.apk)  
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.8/lumos-v1.0.8.apk)  
 2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
 3. Start the application and click the INJECT button.  
 4. After the first restart, start the application a second time and press INJECT again.  
