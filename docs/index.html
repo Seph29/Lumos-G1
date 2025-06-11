@@ -32,7 +32,6 @@
             max-width: 400px;
             width: 100%;
             height: auto;
-            /* Suppression du filtre glow */
         }
     </style>
 </head>
@@ -48,7 +47,6 @@
         let particles = [];
         const mouse = { x: null, y: null, radius: 100 };
 
-        // Configuration
         const particleSettings = {
             count: 150,
             color: ['#FFA500', '#808080'],
@@ -57,13 +55,11 @@
             maxSize: 5
         };
 
-        // Redimensionnement canvas
         function resizeCanvas() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
         }
 
-        // Classe Particule
         class Particle {
             constructor() {
                 this.x = Math.random() * canvas.width;
@@ -75,7 +71,6 @@
             }
 
             update() {
-                // Interaction avec la souris
                 const dx = mouse.x - this.x;
                 const dy = mouse.y - this.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
@@ -86,11 +81,9 @@
                     this.y -= dy * force * 0.05;
                 }
 
-                // Mouvement naturel
                 this.x += this.speedX;
                 this.y += this.speedY;
 
-                // Rebond sur les bords
                 if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
                 if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
             }
@@ -103,7 +96,6 @@
             }
         }
 
-        // Initialisation
         function init() {
             particles = [];
             for (let i = 0; i < particleSettings.count; i++) {
@@ -111,11 +103,9 @@
             }
         }
 
-        // Animation
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             
-            // Dessiner les connections
             particles.forEach(particle1 => {
                 particles.forEach(particle2 => {
                     const dx = particle1.x - particle2.x;
@@ -132,7 +122,6 @@
                     }
                 });
 
-                // Connection avec la souris
                 if (mouse.x && mouse.y) {
                     const dx = particle1.x - mouse.x;
                     const dy = particle1.y - mouse.y;
@@ -155,7 +144,6 @@
             requestAnimationFrame(animate);
         }
 
-        // Événements
         window.addEventListener('resize', () => {
             resizeCanvas();
             init();
@@ -166,7 +154,6 @@
             mouse.y = e.y;
         });
 
-        // Démarrage
         resizeCanvas();
         init();
         animate();
