@@ -10,6 +10,8 @@
         <img src="https://img.shields.io/github/downloads/Seph29/Lumos-G1/total?label=Downloads&style=for-the-badge" alt="Downloads"/>
         <img src="https://img.shields.io/github/issues/Seph29/Lumos-G1?label=Issues&style=for-the-badge" alt="Issues"/>
         <img src="https://img.shields.io/github/stars/Seph29/Lumos-G1?label=Stars&style=for-the-badge" alt="Stars"></p>
+        <a href="https://discord.gg/ttfbVCavBk"><img src="https://img.shields.io/discord/1381673570643742822?label=Discord&logo=discord&style=for-the-badge&color=5865F2" alt="Discord"/></a>
+
   <br />
 </div>
 
@@ -69,7 +71,9 @@
 - Two-stage patching: boot partition first, then system (reboot required)  
 - Partial restore available: revert only the system (boot remains patched), allowing fast toggle for app installation  
 - Integrity check: all critical files are verified using SHA-256 hashes  
-- Automatic update notification when a new version is available  
+- **Digital signature verification for downloaded patches**  
+- **Automatic firmware dump upload for unsupported versions**  
+- Automatic update notification when a new version is available *(includes Changelog button with direct link to release notes)*  
 - Battery check: prevents patching or restore if device is not charging or below 20%  
 - Backup verification: restoration is only possible if a valid backup is present  
 - Multilingual interface (French, English, German)  
@@ -99,7 +103,7 @@
 
 ## ⚙️ Installation
 
-1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.8/lumos-v1.0.8.apk)  
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.9/lumos-v1.0.9.apk)  
 2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
 3. Start the application and click the INJECT button.  
 4. After the first restart, start the application a second time and press INJECT again.  
