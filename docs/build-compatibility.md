@@ -1,6 +1,6 @@
 ## Build Compatibility Matrix
 
-| Build tag           | Analysis scope* | Boot verified | Patch status** | App status*** | Release date | Notes                                              |
+| Build tag           | Analysis scope* | Boot.img verified | Patch status** | App status*** | Release date | Notes                                              |
 |---------------------|-----------------|---------------|----------------|---------------|--------------|----------------------------------------------------|
 | G1_FR-V3.03.250113  | Full            | ✅            | ✅ ready       | ✅ works      | 2025-05-11   | current firmware                                   |
 | G1_EN-V2.14.250109  | Full            | ✅            | ✅ ready       | ✅ works      | 2025-05-11   | current firmware                                   |
