@@ -8,7 +8,7 @@
 | G1_DE-V2.07.241011  | Full            | ✅            | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
 | G1_EN-V2.07.241008  | Full            | ✅            | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
 | G1_DE-V3.02.241011  | Full            | ✅            | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
-| G1_EN-V2.06.240418  | Partial         | ❌            | ✅ ready       | ✅ works      | 2025-05-11   | subset only                                        |
+| G1_EN-V2.06.240418  | Partial         | ❌            | ✅ ready       | ✅ works      | 2025-05-11   | subset only - patch tested & functional on G1      |
 | G1-1.24             | Partial         | ❌            | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 rewrite required   |
 
 \* **Analysis scope** : `Full` = entire firmware, `Partial` = subset only  
