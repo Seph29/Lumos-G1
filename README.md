@@ -99,6 +99,8 @@
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
+👉 [Full build compatibility matrix](docs/build-compatibility.md)
+
 ---
 
 ## ⚙️ Installation
