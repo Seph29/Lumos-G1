@@ -13,8 +13,9 @@
 | G1-1.38             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.17             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
-| V2.00.231120-       | Partial         | ❌               | 🕐 WIP         | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
-| G1-1.35             | Partial         | ❌               | 🕐 WIP         | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
+| V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
+| G1-1.35             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
+| EN-2.20.250410      | Partial         | ❌               | ✅ ready       | ⚠️ update needed | Not planned  | different naming format – Lumos-G1 overhaul required   |
 
 \* **Analysis scope** : `Full` = entire firmware, `Partial` = subset only  
 \** **Patch status** : ability to create the patch/xdelta (`✅ ready`, `⚠️ tweak`, `❌ no`)  
