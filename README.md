@@ -68,7 +68,7 @@
 
 - No bootloader unlock required  
 - Automatic firmware version and language detection *(FR / EN / DE supported)*  
-- Preliminary support for legacy firmware formats *(G1-1.24, EN-2.20.x, V2.00.x, etc.)*  
+- Preliminary support for legacy firmware formats *(G1-1.XX, EN-2.XX.x, V2.XX.x, etc.)*  
 - Two-stage patching: boot partition first, then system (reboot required)  
 - Partial restore available: revert only the system (boot remains patched), allowing fast toggle for app installation  
 - Integrity check: all critical files are verified using digital signatures  
