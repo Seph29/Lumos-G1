@@ -68,15 +68,15 @@
 
 - No bootloader unlock required  
 - Automatic firmware version and language detection *(FR / EN / DE supported)*  
+- Preliminary support for legacy firmware formats *(G1-1.24, EN-2.20.x, V2.00.x, etc.)*  
 - Two-stage patching: boot partition first, then system (reboot required)  
 - Partial restore available: revert only the system (boot remains patched), allowing fast toggle for app installation  
-- Integrity check: all critical files are verified using SHA-256 hashes  
-- **Digital signature verification for downloaded patches**  
-- **Automatic firmware dump upload for unsupported versions**  
+- Integrity check: all critical files are verified using digital signatures  
+- Automatic firmware dump upload for unsupported versions  
 - Automatic update notification when a new version is available *(includes Changelog button with direct link to release notes)*  
 - Battery check: prevents patching or restore if device is not charging or below 20%  
 - Backup verification: restoration is only possible if a valid backup is present  
-- Multilingual interface (French, English, German)  
+- Multilingual interface (French, English, German)
 
 ---
 
