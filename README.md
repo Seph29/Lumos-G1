@@ -96,6 +96,9 @@
 | EN       | 2.07.241008      |
 | DE       | 3.02.241011      |
 | EN       | 2.06.240418      |
+| FR       | 3.06.250510      |
+| EN       | 2.20.250410      |
+| DE       | 2.10.250416      |
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
