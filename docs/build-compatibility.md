@@ -15,7 +15,7 @@
 | V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.38             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.39             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
-| G1-1.36             | Partial         | ✅               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different boot.img and different naming format – Lumos-G1 overhaul required   |
+| G1-1.36             | Partial         | ✅               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.35             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.24             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
