@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumos-G1 - Unlock App Installation for G1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6f42c1;
+            --secondary: #d63384;
+            --dark: #212529;
+            --light: #f8f9fa;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e9ecef;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .navbar {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(26, 26, 46, 0.9), rgba(22, 33, 62, 0.9)), 
+                        url('https://images.unsplash.com/photo-1638805316372-e4e91cbf3ee1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(111, 66, 193, 0.15) 0%, transparent 70%);
+            z-index: 0;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .feature-card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(111, 66, 193, 0.3);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            height: 100%;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(111, 66, 193, 0.25);
+            border-color: var(--primary);
+        }
+        
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 70px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+        
+        .btn-grad {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+        
+        .btn-grad:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(111, 66, 193, 0.3);
+        }
+        
+        .compatibility-table {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .compatibility-table th {
+            background: rgba(111, 66, 193, 0.3);
+        }
+        
+        .footer {
+            background: rgba(15, 23, 42, 0.95);
+            padding: 40px 0;
+            margin-top: 80px;
+        }
+        
+        .glow-text {
+            text-shadow: 0 0 10px rgba(111, 66, 193, 0.7);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        
+        .accordion-button:not(.collapsed) {
+            background-color: rgba(111, 66, 193, 0.2);
+            color: white;
+        }
+        
+        .compatibility-badge {
+            font-size: 0.8rem;
+            padding: 0.25rem 0.5rem;
+        }
+        
+        .text-light {
+            color: #f8f9fa !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fas fa-mobile-alt me-2"></i>
+                <span class="fw-bold">Lumos-G1</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#compatibility">Compatibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Seph29/Lumos-G1/releases/download/v1.0.10.1/lumos-v1.0.10.1.apk">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section text-center">
+        <div class="container hero-content">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-3 fw-bold mb-4 glow-text">Lumos-G1</h1>
+                    <p class="lead mb-5 text-light">Unlock app installation on the INNIOASIS G1 without bootloader unlock</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://github.com/Seph29/Lumos-G1/releases/download/v1.0.10.1/lumos-v1.0.10.1.apk" 
+                           class="btn btn-grad btn-lg px-4">
+                            <i class="fas fa-download me-2"></i>Download APK
+                        </a>
+                        <a href="https://github.com/Seph29/Lumos-G1" target="_blank" class="btn btn-outline-light btn-lg px-4">
+                            <i class="fab fa-github me-2"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title d-inline-block">Key Features</h2>
+                <p class="text-light">What makes Lumos-G1 unique</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <h4 class="mb-3">No Bootloader Unlock</h4>
+                        <p>Works without unlocking bootloader, preserving device warranty.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4 class="mb-3">Automated Process</h4>
+                        <p>Two-step system patching with reboot between phases.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4 class="mb-3">Multilingual</h4>
+                        <p>Full support for French, English and German.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="mb-3">Integrity Checks</h4>
+                        <p>All critical files are verified with digital signatures.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-undo"></i>
+                        </div>
+                        <h4 class="mb-3">Partial Restore</h4>
+                        <p>Restore only the system partition while keeping boot patched.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-card p-4 text-center h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-battery-full"></i>
+                        </div>
+                        <h4 class="mb-3">Battery Protection</h4>
+                        <p>Prevents patching if battery is below 20% or not charging.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="compatibility" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title d-inline-block">Firmware Compatibility</h2>
+                <p class="text-light">Supported firmware versions</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="compatibility-table">
+                        <div class="table-responsive">
+                            <table class="table table-dark table-hover align-middle">
+                                <thead>
+                                    <tr>
+                                        <th>Language</th>
+                                        <th>Version</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>French (FR)</td>
+                                        <td>3.03.250113</td>
+                                        <td><span class="badge bg-success compatibility-badge">Officially Supported</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>English (EN)</td>
+                                        <td>2.14.250109</td>
+                                        <td><span class="badge bg-success compatibility-badge">Officially Supported</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>German (DE)</td>
+                                        <td>2.08.250113</td>
+                                        <td><span class="badge bg-success compatibility-badge">Officially Supported</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>French (FR)</td>
+                                        <td>3.02.241011</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>French (FR)</td>
+                                        <td>3.06.250510</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>English (EN)</td>
+                                        <td>2.06.240418</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>English (EN)</td>
+                                        <td>2.07.241008</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>English (EN)</td>
+                                        <td>2.20.250410</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>German (DE)</td>
+                                        <td>2.07.241011</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>German (DE)</td>
+                                        <td>2.10.250416</td>
+                                        <td><span class="badge bg-warning compatibility-badge">Likely Compatible</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 text-center">
+                        <p class="text-light">If your firmware version is not listed, update it before using the app</p>
+                        <p class="text-light mb-4">Unlisted versions may work but are not guaranteed</p>
+                        <a href="https://github.com/Seph29/Lumos-G1/blob/main/docs/build-compatibility.md" 
+                           target="_blank" 
+                           class="btn btn-outline-light">
+                            <i class="fas fa-external-link-alt me-2"></i>View Full Compatibility Matrix
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title d-inline-block">Frequently Asked Questions</h2>
+                <p class="text-light">Common questions about Lumos-G1</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Is my device rooted after installing Lumos-G1?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    No. Lumos-G1 uses temporary root access only during the patching process. Your device remains unrooted after reboot.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Can I completely remove Lumos-G1?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes. You need to reflash the original <code>boot.img</code> and <code>system.img</code> using SP Flash Tool.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Is it possible to unlock the bootloader?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    No. To our knowledge, the INNIOASIS G1 bootloader cannot be unlocked.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What should I do if my device is stuck on the INNIOASIS logo?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You must reflash the correct firmware using SP Flash Tool. If you're not familiar with this tool, we strongly advise against using Lumos-G1.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5>Lumos-G1</h5>
+                    <p>Unlock app installation on the INNIOASIS G1 without bootloader unlock.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="https://github.com/Seph29/Lumos-G1" target="_blank" class="text-light"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="https://discord.gg/ttfbVCavBk" target="_blank" class="text-light"><i class="fab fa-discord fa-lg"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#features" class="text-light">Features</a></li>
+                        <li><a href="#compatibility" class="text-light">Compatibility</a></li>
+                        <li><a href="#faq" class="text-light">FAQ</a></li>
+                        <li><a href="https://github.com/Seph29/Lumos-G1/releases/download/v1.0.10.1/lumos-v1.0.10.1.apk" class="text-light">Download</a></li>
+                        <li><a href="https://github.com/Seph29/Lumos-G1/issues" target="_blank" class="text-light">Report Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-secondary">
+            
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Lumos-G1 Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
