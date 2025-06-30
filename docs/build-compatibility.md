@@ -11,6 +11,7 @@
 | G1_DE-V2.07.241011  | Full            | ✅               | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
 | G1_EN-V2.07.241008  | Full            | ✅               | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
 | G1_FR-V3.02.241011  | Full            | ✅               | ✅ ready       | ✅ works      | 2025-05-11   | —                                                  |
+| G1_FR-V3.00.240418  | Partial         | ✅               | ✅ ready       | ✅ works      | 2025-06-30   | —                                                  |
 | G1_EN-V2.06.240418  | Partial         | ❌               | ✅ ready       | ✅ works      | 2025-05-11   | subset only - patch tested & functional on G1      |
 | V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
 | G1-1.38             | Partial         | ❌               | ✅ ready       | ⚠️ update needed | 🕐 WIP  | different naming format – Lumos-G1 overhaul required   |
