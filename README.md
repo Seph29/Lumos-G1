@@ -84,6 +84,9 @@
 
 | Language | Expected Version |
 |----------|------------------|
+| FR       | 3.06.250510     |
+| EN       | 2.20.250410      |
+| DE       | 2.10.250416      |
 | FR       | 3.03.250113      |
 | EN       | 2.14.250109      |
 | DE       | 2.08.250113      |
@@ -109,7 +112,7 @@
 
 ## ⚙️ Installation
 
-1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.0.10.1/lumos-v1.0.10.1.apk)
+1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.1/lumos-v1.1.apk)
 2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
 3. Start the application and click the INJECT button.  
 4. After the first restart, start the application a second time and press INJECT again.  
