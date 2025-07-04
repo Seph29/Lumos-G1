@@ -14,10 +14,10 @@
 | G1_FR-V3.00.240418  | Partial         | ✅               | ✅ ready       | ✅ works         | 2025-06-30   | —                                               |
 | G1_EN-V2.06.240418  | Partial         | ❌               | ✅ ready       | ✅ works         | 2025-05-11   | subset only - patch tested & functional on G1   |
 | V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
-| G1-1.38             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
 | G1-1.39             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
+| G1-1.38             | Partial         | ✅               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
 | G1-1.36             | Partial         | ✅               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
-| G1-1.35             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
+| G1-1.35             | Partial         | ✅               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
 | G1-1.24             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
 | G1-1.17             | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
