@@ -84,7 +84,7 @@
 
 | Language | Expected Version |
 |----------|------------------|
-| FR       | 3.06.250510     |
+| FR       | 3.06.250510      |
 | EN       | 2.20.250410      |
 | DE       | 2.10.250416      |
 | FR       | 3.03.250113      |
@@ -103,6 +103,8 @@
 | DE       | 2.07.241011      |
 | DE       | 2.10.250416      |
 
+**Beta test use at own risque
+| -       | G1-1.39      |
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
