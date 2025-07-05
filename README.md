@@ -103,7 +103,7 @@
 | DE       | 2.07.241011      |
 | DE       | 2.10.250416      |
 
-**Beta test - use at your own risk
+**Beta test - use at your own risk**
 | Language | Expected Version |
 |----------|------------------|
 | -        | G1-1.39      |
