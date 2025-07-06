@@ -107,6 +107,9 @@
 | Language | Expected Version |
 |----------|------------------|
 | -        | G1-1.39      |
+| -        | G1-1.38      |
+| -        | G1-1.36      |
+| -        | G1-1.35      |
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
