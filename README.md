@@ -57,8 +57,9 @@
   <br/>
   <p align="center"><b>🛠 Restore menu</b></p>
   <p align="center">
-    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/patched-EN.png" width="200"/> &nbsp;
-    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/restore-EN.png" width="200"/>
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/patched-EN.png" width="200"/>
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/restore-EN.png" width="200"/> &nbsp;
+    <img src="https://github.com/Seph29/Lumos-G1/blob/main/docs/imgs/restore2-EN.png" width="200"/> &nbsp;
   </p>
 </details>
 
