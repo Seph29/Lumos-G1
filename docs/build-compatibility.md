@@ -13,7 +13,7 @@
 | G1_FR-V3.02.241011  | Full            | ✅               | ✅ ready       | ✅ works       | 2025-05-11   | —                                               |
 | G1_FR-V3.00.240418  | Partial         | ✅               | ✅ ready       | ✅ works       | 2025-06-30   | —                                               |
 | G1_EN-V2.06.240418  | Partial         | ❌               | ✅ ready       | ✅ works       | 2025-05-11   | subset only - patch tested & functional on G1   |
-| V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ test needed | 🕐 WIP  | — |
+| V2.00.231120-       | Partial         | ❌               | ✅ ready       | ⚠️ more info needed | 🕐 WIP  | — |
 | G1-1.39             | Partial         | ❌               | ✅ ready       | ⚠️ BETA TEST   | 🕐 WIP  | — |
 | G1-1.38             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 🕐 WIP  | — |
 | G1-1.36             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 🕐 WIP  | — |
