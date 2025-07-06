@@ -103,13 +103,16 @@
 | DE       | 2.07.241011      |
 | DE       | 2.10.250416      |
 
-**Beta test - use at your own risk**
+** ⚠️⚠️⚠️ Beta test - use at your own risk ⚠️⚠️⚠️ **
 | Language | Expected Version |
 |----------|------------------|
 | -        | G1-1.39      |
 | -        | G1-1.38      |
 | -        | G1-1.36      |
 | -        | G1-1.35      |
+| -        | G1-1.30      |
+| -        | G1-1.24      |
+| -        | G1-1.17      |
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
