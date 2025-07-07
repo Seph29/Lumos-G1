@@ -10,7 +10,7 @@
         <a href="#"><img src="https://img.shields.io/github/downloads/Seph29/Lumos-G1/total?label=Downloads&style=for-the-badge" alt="Downloads"/></a>
         <a href="../../issues"><img src="https://img.shields.io/github/issues/Seph29/Lumos-G1?label=Issues&style=for-the-badge" alt="Issues"/></a>
         <a href="#"><img src="https://img.shields.io/github/stars/Seph29/Lumos-G1?style=for-the-badge" alt="Stars"></p></a>
-        <a href="https://discord.gg/ttfbVCavBk"><img src="https://img.shields.io/discord/1381673570643742822?label=Discord&logo=discord&style=for-the-badge&color=5865F2" alt="Discord"/></a>
+        <a href="https://discord.gg/3zbfaTNN7V"><img src="https://img.shields.io/discord/1212667787311456286?label=Discord&logo=discord&style=for-the-badge&color=5865F2" alt="Discord"/></a>
 
   <br />
 </div>
