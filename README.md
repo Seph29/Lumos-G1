@@ -114,6 +114,7 @@
 | -        | G1-1.30      |
 | -        | G1-1.24      |
 | -        | G1-1.17      |
+| -        | V2.00.231120 |
 
 > ⚠️ If your firmware version is not listed above, you must update it before using the app.
 
