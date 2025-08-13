@@ -20,6 +20,7 @@
 | G1-1.36             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-12   | — |
 | G1-1.35             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-12   | — |
 | G1-1.34             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-28   | — |
+| G1-1.34             | Partial         | ✅               | ✅ ready       | ⚠️ BETA TEST   | 2025-08-13   | — |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-12   | — |
 | G1-1.24             | Partial         | ❌               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-12   | — |
 | G1-1.17             | Partial         | ❌               | ✅ ready       | ⚠️ BETA TEST   | 2025-07-12   | — |
