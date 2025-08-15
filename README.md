@@ -1,7 +1,4 @@
 <a name="readme-top"></a>
-<p align=center>
-  <a href="#"><img src="https://img.shields.io/badge/warning-system%20modification-critical?style=for-the-badge&color=red" alt="Warning"></a>
-</p>
 <div align="center">
   <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png" alt="Lumos G1 Logo"/>
   <br />
@@ -11,15 +8,15 @@
         <a href="../../issues"><img src="https://img.shields.io/github/issues/Seph29/Lumos-G1?label=Issues&style=for-the-badge" alt="Issues"/></a>
         <a href="#"><img src="https://img.shields.io/github/stars/Seph29/Lumos-G1?style=for-the-badge" alt="Stars"></p></a>
         <a href="https://discord.gg/3zbfaTNN7V"><img src="https://img.shields.io/discord/1212667787311456286?label=Discord&logo=discord&style=for-the-badge&color=5865F2" alt="Discord"/></a>
-
-  <br />
 </div>
+<br />
 
-> ⚠️ **WARNING: MAY BRICK YOUR DEVICE**  
-> This app modifies critical system partitions on the INNIOASIS G1 (boot and system).  
-> Misuse can permanently **brick** your device.  
-> The application is still in the beta test phase.  
-> ❗ **If you don't understand what this app does or why you need it, do not use it.**
+---
+
+## ⚠️ Warning
+
+This app modifies critical system partitions on the INNIOASIS G1 (boot and system), Misuse can **brick** your device.<br />
+ ❗ **If you don't understand what this app does or why you need it, do not use it.**
 
 ---
 
@@ -91,22 +88,10 @@
 | FR       | 3.03.250113      |
 | EN       | 2.14.250109      |
 | DE       | 2.08.250113      |
-
-**Alternative firmware versions** (not officially supported, but likely to work):
-
-| Language | Expected Version |
-|----------|------------------|
 | FR       | 3.02.241011      |
-| FR       | 3.06.250510      |
 | EN       | 2.06.240418      |
 | EN       | 2.07.241008      |
-| EN       | 2.20.250410      |
 | DE       | 2.07.241011      |
-| DE       | 2.10.250416      |
-
-**⚠️⚠️⚠️ Beta test - use at your own risk ⚠️⚠️⚠️**
-| Language | Expected Version |
-|----------|------------------|
 | -        | G1-1.39      |
 | -        | G1-1.38      |
 | -        | G1-1.36      |
@@ -119,7 +104,7 @@
 | -        | V2.00.231120 |
 | -        | V2.04.240320 |
 
-> ⚠️ If your firmware version is not listed above, you must update it before using the app.
+> ⚠️ If your firmware version is not listed above, you can either send a dump via the application or update your device to the latest supported firmware version first.
 
 👉 [Full build compatibility matrix](docs/build-compatibility.md)
 
@@ -128,13 +113,13 @@
 ## ⚙️ Installation
 
 1. Download the latest release from the **Releases** tab or [here](https://github.com/Seph29/Lumos-G1/releases/download/v1.1.2/lumos-v1.1.2.apk)
-2. Install the APK on the G1 (via Download, USB, ADB, etc.)  
-3. Start the application and click the INJECT button.  
-4. After the first restart, start the application a second time and press INJECT again.  
+2. Install the APK on the G1 (via USB, ADB, etc.)  
+3. Start the application and click the **INJECT** button.  
+4. After the first restart, **start the application a second time** and press **INJECT** again.  
 5. Enjoy!
 
 > ⚠️ If your G1 is stuck on the INNIOASIS logo after flashing, you must reflash the correct firmware using SP Flash Tool.
-> If you're not familiar with how to use SP Flash Tool, I strongly advise against using this application.
+> If you do not know how to use SP Flash Tool, I strongly recommend that you do not use this application.
 
 ---
 
