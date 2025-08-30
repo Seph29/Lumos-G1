@@ -25,6 +25,7 @@
 | G1-1.34             | Partial         | ✅               | ✅ ready       | ✅ works       | 2025-08-13   | — |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ✅ works       | 2025-07-12   | — |
 | G1-1.24             | Partial         | ❌               | ✅ ready       | ✅ works       | 2025-07-12   | — |
+| G1-1.22             | Partial         | ✅               | ✅ ready       | ✅ works       | 2025-08-30   | — |
 | G1-1.17             | Partial         | ❌               | ✅ ready       | ✅ works       | 2025-07-12   | — |
 
 \* **Analysis scope** : `Full` = entire firmware, `Partial` = subset only  
