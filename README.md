@@ -101,6 +101,7 @@ This app modifies critical system partitions on the INNIOASIS G1 (boot and syste
 | -        | G1-1.33      |
 | -        | G1-1.30      |
 | -        | G1-1.24      |
+| -        | G1-1.22      |
 | -        | G1-1.17      |
 | -        | V2.00.231120 |
 | -        | V2.04.240320 |
