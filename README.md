@@ -93,6 +93,7 @@ This app modifies critical system partitions on the INNIOASIS G1 (boot and syste
 | EN       | 2.07.241008      |
 | DE       | 2.07.241011      |
 | EN       | 2.09.241031      |
+| EN       | 2.21.250819      |
 | -        | G1-1.39      |
 | -        | G1-1.38      |
 | -        | G1-1.36      |
@@ -105,7 +106,7 @@ This app modifies critical system partitions on the INNIOASIS G1 (boot and syste
 | -        | G1-1.17      |
 | -        | V2.00.231120 |
 | -        | V2.04.240320 |
-| -        | V2.01.231127 |
+
 > ⚠️ If your firmware version is not listed above, you can either send a dump via the application or update your device to the latest supported firmware version first.
 
 👉 [Full build compatibility matrix](docs/build-compatibility.md)
