@@ -3,7 +3,7 @@
   <img src="https://github.com/Seph29/Lumos-G1/blob/aade853dda2ed909629fa3b2e7afcab87efb9e8c/docs/logo.png" alt="Lumos G1 Logo"/>
   <br />
   <p><b>Unlock app installation on the INNIOASIS G1 without bootloader unlock</b></p>  <br />
-  <p align="center"><a href="https://github.com/Seph29/Lumos-G1/releases/download/"><img src="https://img.shields.io/github/v/release/Seph29/Lumos-G1?style=for-the-badge" alt="Release"/></a>
+  <p align="center"><a href="https://github.com/Seph29/Lumos-G1/releases/latest/"><img src="https://img.shields.io/github/v/release/Seph29/Lumos-G1?style=for-the-badge" alt="Release"/></a>
         <a href="#"><img src="https://img.shields.io/github/downloads/Seph29/Lumos-G1/total?label=Downloads&style=for-the-badge" alt="Downloads"/></a>
         <a href="../../issues"><img src="https://img.shields.io/github/issues/Seph29/Lumos-G1?label=Issues&style=for-the-badge" alt="Issues"/></a>
         <a href="#"><img src="https://img.shields.io/github/stars/Seph29/Lumos-G1?style=for-the-badge" alt="Stars"></p></a>
