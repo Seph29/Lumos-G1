@@ -33,7 +33,6 @@
 | G1-1.32             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.33             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.34             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-28   |                                                 |
-| G1-1.34             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-08-13   |                                                 |
 | G1-1.35             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
 | G1-1.36             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
 | G1-1.38             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
