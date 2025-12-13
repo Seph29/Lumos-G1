@@ -28,6 +28,7 @@
 | G1-1.21             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.22             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-08-30   |                                                 |
 | G1-1.24             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
+| G1-1.27             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.29             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.30             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
 | G1-1.32             | Partial         | ❌               | ✅ ready       | ✅ works        | 2025         |                                                 |
