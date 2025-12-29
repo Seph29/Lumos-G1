@@ -26,6 +26,7 @@
 | V2.04.231117        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | V2.04.240313        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | V2.04.240320        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   | patch tested & functional on G1                 |
+| G1-1.15             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.17             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
 | G1-1.21             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.22             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-08-30   |                                                 |
