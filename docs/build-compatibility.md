@@ -21,6 +21,8 @@
 | G1_FR-V3.08.250901  | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1_ES-V6.01.250519  | Partial         | ✅               | ❌             | ❌              | Not planned  |                                                 |
 | G1_ES-V6.03.250902  | Partial         | ✅               | ❌             | ❌              | Not planned  |                                                 |
+| V5.01.240313        | Partial         | ✅               | ✅ ready       | ✅ works        | 2026-04-06   |                                                 |
+| V4.03.240321        | Partial         | ✅               | ✅ ready       | ✅ works        | 2026-04-06   |                                                 |
 | V2.00.231120        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
 | V2.01.231127        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-08-24   |                                                 |
 | V2.04.231117        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
@@ -28,6 +30,7 @@
 | V2.04.240320        | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   | patch tested & functional on G1                 |
 | G1-1.15             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.17             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
+| G1-1.20             | Partial         | ✅               | ✅ ready       | ✅ works        | 2026-04-17   |                                                 |
 | G1-1.21             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025         |                                                 |
 | G1-1.22             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-08-30   |                                                 |
 | G1-1.24             | Partial         | ✅               | ✅ ready       | ✅ works        | 2025-07-12   |                                                 |
