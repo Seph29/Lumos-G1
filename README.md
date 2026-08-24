@@ -113,7 +113,7 @@ Yes. You need to reflash the original `boot.img` and `system.img` using SP Flash
 Yes, once the patch was applied you can uninstall the Lumos app and still be able to install applications. Refer to the previous item to completely delete Lumos.
 
 **Is it possible to unlock the bootloader?**  
-No. As far as I know, the G1 bootloader cannot be unlocked.
+Yes, but as far as I know, nothing has been made public.
 
 **Does Lumos work on all firmware versions?**  
 No. Only specific versions are officially supported. Others may work, but without guarantee.
