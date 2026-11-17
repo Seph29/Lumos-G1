@@ -15,9 +15,8 @@
 
 ## ⚠️ Warning
 
-Lumos-G1 is not compatible with Innioasis’s Android 9 release 
-- G1-9_EN-V1.03-20260707
-- G1-9_MULTI-V3.01-20260720
+Lumos-G1 is not compatible with any Innioasis’s Android 9 release 
+- New version for Android 9 : https://github.com/Seph29/Lumos-G1_9
 
 This app modifies critical system partitions on the INNIOASIS G1 (boot and system), Misuse can **brick** your device.<br />
  ❗ **If you don't understand what this app does or why you need it, do not use it.**
